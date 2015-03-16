@@ -574,35 +574,23 @@ body {
   font-size: 1em;
   line-height: 1.5; }
 
-/* line 10, /Users/lun/code/nomadwiki/source/assets/stylesheets/base/_typography.scss */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-  font-size: 1em;
-  line-height: 1.2;
-  margin: 0 0 0.75em; }
-
-/* line 22, /Users/lun/code/nomadwiki/source/assets/stylesheets/base/_typography.scss */
+/* line 11, /Users/lun/code/nomadwiki/source/assets/stylesheets/base/_typography.scss */
 p {
   margin: 0 0 0.75em; }
 
-/* line 26, /Users/lun/code/nomadwiki/source/assets/stylesheets/base/_typography.scss */
+/* line 15, /Users/lun/code/nomadwiki/source/assets/stylesheets/base/_typography.scss */
 a {
   color: #477dca;
   text-decoration: none;
   transition: color 0.1s linear; }
-  /* line 31, /Users/lun/code/nomadwiki/source/assets/stylesheets/base/_typography.scss */
+  /* line 20, /Users/lun/code/nomadwiki/source/assets/stylesheets/base/_typography.scss */
   a:active, a:focus, a:hover {
     color: #2c5999; }
-  /* line 37, /Users/lun/code/nomadwiki/source/assets/stylesheets/base/_typography.scss */
+  /* line 26, /Users/lun/code/nomadwiki/source/assets/stylesheets/base/_typography.scss */
   a:active, a:focus {
     outline: none; }
 
-/* line 43, /Users/lun/code/nomadwiki/source/assets/stylesheets/base/_typography.scss */
+/* line 32, /Users/lun/code/nomadwiki/source/assets/stylesheets/base/_typography.scss */
 hr {
   border-bottom: 1px solid #ddd;
   border-left: none;
@@ -610,7 +598,7 @@ hr {
   border-top: none;
   margin: 1.5em 0; }
 
-/* line 51, /Users/lun/code/nomadwiki/source/assets/stylesheets/base/_typography.scss */
+/* line 40, /Users/lun/code/nomadwiki/source/assets/stylesheets/base/_typography.scss */
 img,
 picture {
   margin: 0;
@@ -2806,6 +2794,20 @@ body {
 .underline {
   border-bottom: 1px solid #f0f0f0; }
 
+/* line 15, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
+.entry:hover {
+  background: none repeat scroll 0% 0% #f0f0f0; }
+
+/* line 19, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
+.entry span {
+  position: relative;
+  top: 0;
+  left: 10em; }
+
+/* line 23, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
+a.logo:hover {
+  cursor: url(../sym57.cur), progress !important; }
+
 /* line 1, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
 .centered-navigation {
   background-color: white;
@@ -3079,7 +3081,10 @@ body {
 
 /* line 1, /Users/lun/code/nomadwiki/source/assets/stylesheets/_type_system.css.scss */
 body {
-  text-align: left; }
+  text-align: left;
+  font-family: "Nunito", sans-serif;
+  margin-bottom: 2em;
+  text-transform: uppercase; }
   /* line 13, /Users/lun/code/nomadwiki/source/assets/stylesheets/_type_system.css.scss */
   body h1, body h2, body h3, body p {
     margin: 0; }
@@ -3103,27 +3108,16 @@ body {
     clear: both;
     content: "";
     display: table; }
-  /* line 42, /Users/lun/code/nomadwiki/source/assets/stylesheets/_type_system.css.scss */
-  body .type {
-    border-bottom: 1px solid;
-    display: inline-block;
-    font-family: "Nunito", sans-serif;
-    font-size: 0.7em;
-    font-weight: 800;
-    margin-bottom: 2em;
-    padding: 0.3em 0;
-    text-align: left;
-    text-transform: uppercase; }
-  /* line 54, /Users/lun/code/nomadwiki/source/assets/stylesheets/_type_system.css.scss */
+  /* line 47, /Users/lun/code/nomadwiki/source/assets/stylesheets/_type_system.css.scss */
   body h1 {
     font-family: "Varela Round", sans-serif;
     font-size: 1.8em;
     margin-bottom: 0.5em; }
     @media screen and (min-width: 40em) {
-      /* line 54, /Users/lun/code/nomadwiki/source/assets/stylesheets/_type_system.css.scss */
+      /* line 47, /Users/lun/code/nomadwiki/source/assets/stylesheets/_type_system.css.scss */
       body h1 {
         font-size: 2.4em; } }
-  /* line 64, /Users/lun/code/nomadwiki/source/assets/stylesheets/_type_system.css.scss */
+  /* line 57, /Users/lun/code/nomadwiki/source/assets/stylesheets/_type_system.css.scss */
   body h2 {
     font-family: "Varela Round", sans-serif;
     font-size: 1.2em;
@@ -3131,10 +3125,10 @@ body {
     line-height: 1.4em;
     margin-bottom: 0.9em; }
     @media screen and (min-width: 40em) {
-      /* line 64, /Users/lun/code/nomadwiki/source/assets/stylesheets/_type_system.css.scss */
+      /* line 57, /Users/lun/code/nomadwiki/source/assets/stylesheets/_type_system.css.scss */
       body h2 {
         font-size: 1.4em; } }
-  /* line 76, /Users/lun/code/nomadwiki/source/assets/stylesheets/_type_system.css.scss */
+  /* line 69, /Users/lun/code/nomadwiki/source/assets/stylesheets/_type_system.css.scss */
   body code {
     background: #F7F7F7;
     border-radius: 4.5px;
@@ -3144,32 +3138,32 @@ body {
     font-style: normal;
     padding: 0.1em 0.4em;
     white-space: nowrap; }
-  /* line 88, /Users/lun/code/nomadwiki/source/assets/stylesheets/_type_system.css.scss */
+  /* line 81, /Users/lun/code/nomadwiki/source/assets/stylesheets/_type_system.css.scss */
   body h3 {
     font-family: "Varela Round", sans-serif;
     font-size: 1.2em;
     font-weight: 400;
     line-height: 1.3em;
     margin-bottom: 0.4em; }
-  /* line 96, /Users/lun/code/nomadwiki/source/assets/stylesheets/_type_system.css.scss */
+  /* line 89, /Users/lun/code/nomadwiki/source/assets/stylesheets/_type_system.css.scss */
   body p.date {
     color: rgba(51, 51, 51, 0.4);
     font-family: "Nunito", sans-serif;
     font-size: 0.9em;
     margin-bottom: 0.3em; }
-  /* line 103, /Users/lun/code/nomadwiki/source/assets/stylesheets/_type_system.css.scss */
+  /* line 96, /Users/lun/code/nomadwiki/source/assets/stylesheets/_type_system.css.scss */
   body p {
     font-family: "Nunito", sans-serif;
     font-size: 1.05em;
     font-weight: 300;
     line-height: 1.4em;
     margin-bottom: 1.5em; }
-    /* line 110, /Users/lun/code/nomadwiki/source/assets/stylesheets/_type_system.css.scss */
+    /* line 103, /Users/lun/code/nomadwiki/source/assets/stylesheets/_type_system.css.scss */
     body p span {
       font-family: "Varela Round", sans-serif;
       font-size: 0.8em;
       text-transform: uppercase; }
-  /* line 117, /Users/lun/code/nomadwiki/source/assets/stylesheets/_type_system.css.scss */
+  /* line 110, /Users/lun/code/nomadwiki/source/assets/stylesheets/_type_system.css.scss */
   body a.read-more {
     display: inline-block;
     font-family: "Varela Round", sans-serif;
@@ -3178,15 +3172,15 @@ body {
     margin-left: 0.2em;
     position: relative;
     text-transform: uppercase; }
-    /* line 126, /Users/lun/code/nomadwiki/source/assets/stylesheets/_type_system.css.scss */
+    /* line 119, /Users/lun/code/nomadwiki/source/assets/stylesheets/_type_system.css.scss */
     body a.read-more span {
       font-size: 1.5em;
       position: absolute;
       right: -12px;
       top: -1px; }
-  /* line 134, /Users/lun/code/nomadwiki/source/assets/stylesheets/_type_system.css.scss */
+  /* line 127, /Users/lun/code/nomadwiki/source/assets/stylesheets/_type_system.css.scss */
   body hr {
     width: 3em; }
-  /* line 138, /Users/lun/code/nomadwiki/source/assets/stylesheets/_type_system.css.scss */
+  /* line 131, /Users/lun/code/nomadwiki/source/assets/stylesheets/_type_system.css.scss */
   body p.author {
     font-family: "Nunito", sans-serif; }
