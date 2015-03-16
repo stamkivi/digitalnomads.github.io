@@ -2794,17 +2794,59 @@ body {
 .underline {
   border-bottom: 1px solid #f0f0f0; }
 
-/* line 15, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
-.entry:hover {
-  background: none repeat scroll 0% 0% #f0f0f0; }
+/* line 14, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
+.category_title {
+  margin-top: 10px;
+  position: relative; }
+  /* line 17, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
+  .category_title h3 {
+    display: inline; }
+  /* line 18, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
+  .category_title a {
+    display: inline;
+    right: 0;
+    position: absolute; }
 
-/* line 19, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
-.entry span {
+/* line 25, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
+.entry-group {
+  list-style: outside none none;
+  margin-top: 10px;
+  padding-left: 0; }
+  /* line 29, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
+  .entry-group:after {
+    clear: both;
+    content: "";
+    display: table; }
+
+/* line 36, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
+.entry {
+  border-radius: 3px;
+  box-sizing: border-box;
+  clear: both;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 17px;
+  margin: 0 -10px;
+  min-height: 42px;
+  padding: 6px;
   position: relative;
-  top: 0;
-  left: 10em; }
+  list-style: outside none none; }
+  /* line 49, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
+  .entry .entry-content {
+    padding-top: 7px; }
+    /* line 51, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
+    .entry .entry-content .comments {
+      display: inline;
+      right: 8px;
+      position: absolute; }
+  /* line 58, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
+  .entry:hover {
+    background: none repeat scroll 0% 0% #f0f0f0; }
+  /* line 61, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
+  .entry span {
+    position: absolute; }
 
-/* line 23, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
+/* line 66, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
 a.logo:hover {
   cursor: url(../sym57.cur), progress !important; }
 
@@ -3141,7 +3183,7 @@ body {
   /* line 81, /Users/lun/code/nomadwiki/source/assets/stylesheets/_type_system.css.scss */
   body h3 {
     font-family: "Varela Round", sans-serif;
-    font-size: 1.2em;
+    font-size: 1.7em;
     font-weight: 400;
     line-height: 1.3em;
     margin-bottom: 0.4em; }
