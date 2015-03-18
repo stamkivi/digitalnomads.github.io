@@ -2826,31 +2826,30 @@ body {
   cursor: pointer;
   font-size: 18px;
   line-height: 17px;
-  margin: 0 -10px;
   min-height: 42px;
   padding: 6px;
   position: relative;
   list-style: outside none none; }
-  /* line 49, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
+  /* line 48, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
   .entry .entry-content {
     padding-top: 7px; }
-    /* line 51, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
+    /* line 50, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
     .entry .entry-content .comments {
       display: inline;
       right: 8px;
       position: absolute; }
-  /* line 58, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
+  /* line 57, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
   .entry:hover {
     background: none repeat scroll 0% 0% #f0f0f0; }
-  /* line 61, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
+  /* line 60, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
   .entry span {
     position: absolute; }
 
-/* line 66, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
+/* line 65, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
 a.logo:hover {
   cursor: url(../sym57.cur), progress !important; }
 
-/* line 70, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
+/* line 69, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
 .footer {
   min-height: 52px; }
 
@@ -2885,16 +2884,15 @@ a.logo:hover {
     line-height: 60px;
     margin: 0;
     padding-right: 1em;
-    text-decoration: none;
-    text-transform: uppercase; }
+    padding-top: 8px; }
     @media screen and (min-width: 53.75em) {
       /* line 46, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
       .centered-navigation .centered-navigation-mobile-menu {
         display: none; } }
-    /* line 61, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
+    /* line 60, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
     .centered-navigation .centered-navigation-mobile-menu:focus, .centered-navigation .centered-navigation-mobile-menu:hover {
       color: #999; }
-  /* line 69, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
+  /* line 68, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
   .centered-navigation .centered-navigation-wrapper {
     max-width: 68em;
     margin-left: auto;
@@ -2911,7 +2909,7 @@ a.logo:hover {
       clear: both;
       content: "";
       display: table; }
-  /* line 76, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
+  /* line 75, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
   .centered-navigation ul.centered-navigation-menu {
     -webkit-transform-style: preserve-3d;
     clear: both;
@@ -2921,19 +2919,19 @@ a.logo:hover {
     padding: 0;
     width: 100%;
     z-index: 99999; }
-    /* line 86, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
+    /* line 85, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
     .centered-navigation ul.centered-navigation-menu.show {
       display: block; }
     @media screen and (min-width: 53.75em) {
-      /* line 76, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
+      /* line 75, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
       .centered-navigation ul.centered-navigation-menu {
         display: block;
         text-align: center; } }
   @media screen and (min-width: 53.75em) {
-    /* line 98, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
+    /* line 97, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
     .centered-navigation .nav-link:first-child {
       margin-left: 2.2em; } }
-  /* line 104, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
+  /* line 103, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
   .centered-navigation ul li.nav-link {
     background: white;
     display: block;
@@ -2943,54 +2941,54 @@ a.logo:hover {
     text-align: right;
     width: 100%;
     z-index: 9999; }
-    /* line 114, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
+    /* line 113, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
     .centered-navigation ul li.nav-link a {
       color: rgba(153, 153, 153, 0.7);
       display: inline-block;
       outline: none;
       text-decoration: none; }
-      /* line 120, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
+      /* line 119, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
       .centered-navigation ul li.nav-link a:focus, .centered-navigation ul li.nav-link a:hover {
         color: #999; }
     @media screen and (min-width: 53.75em) {
-      /* line 104, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
+      /* line 103, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
       .centered-navigation ul li.nav-link {
         background: transparent;
         display: inline;
         line-height: 60px; }
-        /* line 131, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
+        /* line 130, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
         .centered-navigation ul li.nav-link a {
           padding-right: 1em; } }
-  /* line 137, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
+  /* line 136, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
   .centered-navigation li.logo.nav-link {
     display: none;
     line-height: 0; }
     @media screen and (min-width: 53.75em) {
-      /* line 137, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
+      /* line 136, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
       .centered-navigation li.logo.nav-link {
         display: inline; } }
-  /* line 146, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
+  /* line 145, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
   .centered-navigation .logo img {
     margin-bottom: -0.66667em;
     max-height: 2em;
     opacity: 0.6; }
-  /* line 154, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
+  /* line 153, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
   .centered-navigation li.more.nav-link {
     padding-right: 0; }
     @media screen and (min-width: 53.75em) {
-      /* line 154, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
+      /* line 153, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
       .centered-navigation li.more.nav-link {
         padding-right: 1em; } }
-    /* line 161, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
+    /* line 160, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
     .centered-navigation li.more.nav-link > ul > li:first-child a {
       padding-top: 1em; }
-    /* line 165, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
+    /* line 164, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
     .centered-navigation li.more.nav-link a {
       margin-right: 1em; }
-    /* line 169, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
+    /* line 168, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
     .centered-navigation li.more.nav-link > a {
       padding-right: 0.6em; }
-    /* line 173, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
+    /* line 172, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
     .centered-navigation li.more.nav-link > a:after {
       position: absolute;
       top: auto;
@@ -2999,68 +2997,68 @@ a.logo:hover {
       left: auto;
       color: rgba(153, 153, 153, 0.7);
       content: "\25BE"; }
-  /* line 180, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
+  /* line 179, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
   .centered-navigation li.more {
     overflow: visible;
     padding-right: 0; }
-    /* line 184, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
+    /* line 183, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
     .centered-navigation li.more a {
       padding-right: 1em; }
-    /* line 188, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
+    /* line 187, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
     .centered-navigation li.more > a {
       padding-right: 1.6em;
       position: relative; }
       @media screen and (min-width: 53.75em) {
-        /* line 188, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
+        /* line 187, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
         .centered-navigation li.more > a {
           margin-right: 1em; } }
-      /* line 196, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
+      /* line 195, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
       .centered-navigation li.more > a:after {
         content: "›";
         font-size: 1.2em;
         position: absolute;
         right: 0.5em; }
-    /* line 204, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
+    /* line 203, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
     .centered-navigation li.more:focus > .submenu, .centered-navigation li.more:hover > .submenu {
       display: block; }
     @media screen and (min-width: 53.75em) {
-      /* line 180, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
+      /* line 179, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
       .centered-navigation li.more {
         padding-right: 1em;
         position: relative; } }
-  /* line 215, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
+  /* line 214, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
   .centered-navigation ul.submenu {
     display: none;
     padding-left: 0; }
     @media screen and (min-width: 53.75em) {
-      /* line 215, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
+      /* line 214, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
       .centered-navigation ul.submenu {
         left: -1em;
         position: absolute;
         top: 1.5em; } }
     @media screen and (min-width: 53.75em) {
-      /* line 225, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
+      /* line 224, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
       .centered-navigation ul.submenu .submenu {
         left: 11.8em;
         top: 0; } }
-    /* line 232, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
+    /* line 231, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
     .centered-navigation ul.submenu li {
       display: block;
       padding-right: 0; }
       @media screen and (min-width: 53.75em) {
-        /* line 232, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
+        /* line 231, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
         .centered-navigation ul.submenu li {
           line-height: 46.15385px; }
-          /* line 239, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
+          /* line 238, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
           .centered-navigation ul.submenu li:first-child > a {
             border-top-left-radius: 3px;
             border-top-right-radius: 3px; }
-          /* line 244, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
+          /* line 243, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
           .centered-navigation ul.submenu li:last-child > a {
             border-bottom-left-radius: 3px;
             border-bottom-right-radius: 3px;
             padding-bottom: .7em; } }
-      /* line 251, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
+      /* line 250, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
       .centered-navigation ul.submenu li a {
         background-color: #f7f7f7;
         display: inline-block;
@@ -3068,7 +3066,7 @@ a.logo:hover {
         text-decoration: none;
         width: 100%; }
         @media screen and (min-width: 53.75em) {
-          /* line 251, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
+          /* line 250, /Users/lun/code/nomadwiki/source/assets/stylesheets/_nav.css.scss */
           .centered-navigation ul.submenu li a {
             background-color: white;
             padding-left: 1em;
