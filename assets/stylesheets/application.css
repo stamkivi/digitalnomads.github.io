@@ -2796,29 +2796,28 @@ body {
 
 /* line 14, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
 .category_title {
+  padding-left: 6px;
   margin-top: 10px;
   position: relative; }
-  /* line 17, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
+  /* line 18, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
   .category_title h3 {
     display: inline; }
-  /* line 18, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
+  /* line 19, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
   .category_title a {
     display: inline;
-    right: 0;
+    right: 6px;
     position: absolute; }
 
-/* line 25, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
+/* line 26, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
 .entry-group {
-  list-style: outside none none;
-  margin-top: 10px;
-  padding-left: 0; }
-  /* line 29, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
+  list-style: outside none none; }
+  /* line 28, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
   .entry-group:after {
     clear: both;
     content: "";
     display: table; }
 
-/* line 36, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
+/* line 35, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
 .entry {
   border-radius: 3px;
   box-sizing: border-box;
@@ -2830,26 +2829,26 @@ body {
   padding: 6px;
   position: relative;
   list-style: outside none none; }
-  /* line 48, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
+  /* line 47, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
   .entry .entry-content {
     padding-top: 7px; }
-    /* line 50, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
+    /* line 49, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
     .entry .entry-content .comments {
       display: inline;
       right: 8px;
       position: absolute; }
-  /* line 57, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
+  /* line 56, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
   .entry:hover {
     background: none repeat scroll 0% 0% #f0f0f0; }
-  /* line 60, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
+  /* line 59, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
   .entry span {
     position: absolute; }
 
-/* line 65, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
+/* line 64, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
 a.logo:hover {
   cursor: url(../sym57.cur), progress !important; }
 
-/* line 69, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
+/* line 68, /Users/lun/code/nomadwiki/source/assets/stylesheets/_global.css.scss */
 .footer {
   min-height: 52px; }
 
