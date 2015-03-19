@@ -3082,6 +3082,9 @@ a.logo:hover {
     height: 4em;
     margin-bottom: 1em; }
   /* line 25, /Users/lun/code/nomadwiki/source/assets/stylesheets/_hero.css.scss */
+  .hero .button {
+    margin: 5px; }
+  /* line 27, /Users/lun/code/nomadwiki/source/assets/stylesheets/_hero.css.scss */
   .hero .twitter {
     border: 1px solid #2376b0;
     border-radius: 3px;
@@ -3112,7 +3115,7 @@ a.logo:hover {
     .hero .twitter:disabled {
       cursor: not-allowed;
       opacity: 0.5; }
-  /* line 29, /Users/lun/code/nomadwiki/source/assets/stylesheets/_hero.css.scss */
+  /* line 31, /Users/lun/code/nomadwiki/source/assets/stylesheets/_hero.css.scss */
   .hero .facebook {
     border: 1px solid #243d7b;
     border-radius: 3px;
@@ -3143,10 +3146,10 @@ a.logo:hover {
     .hero .facebook:disabled {
       cursor: not-allowed;
       opacity: 0.5; }
-    /* line 31, /Users/lun/code/nomadwiki/source/assets/stylesheets/_hero.css.scss */
+    /* line 33, /Users/lun/code/nomadwiki/source/assets/stylesheets/_hero.css.scss */
     .hero .facebook:hover {
       color: #ddd; }
-  /* line 34, /Users/lun/code/nomadwiki/source/assets/stylesheets/_hero.css.scss */
+  /* line 36, /Users/lun/code/nomadwiki/source/assets/stylesheets/_hero.css.scss */
   .hero .github {
     border: 1px solid #dbdbdb;
     border-radius: 3px;
@@ -3203,7 +3206,7 @@ a.logo:hover {
     .hero .github:disabled {
       cursor: not-allowed;
       opacity: 0.5; }
-  /* line 39, /Users/lun/code/nomadwiki/source/assets/stylesheets/_hero.css.scss */
+  /* line 41, /Users/lun/code/nomadwiki/source/assets/stylesheets/_hero.css.scss */
   .hero .hero-inner {
     max-width: 68em;
     margin-left: auto;
@@ -3222,25 +3225,25 @@ a.logo:hover {
       clear: both;
       content: "";
       display: table; }
-    /* line 47, /Users/lun/code/nomadwiki/source/assets/stylesheets/_hero.css.scss */
+    /* line 49, /Users/lun/code/nomadwiki/source/assets/stylesheets/_hero.css.scss */
     .hero .hero-inner .hero-copy {
       text-align: center;
       padding-bottom: 30px; }
-      /* line 50, /Users/lun/code/nomadwiki/source/assets/stylesheets/_hero.css.scss */
+      /* line 52, /Users/lun/code/nomadwiki/source/assets/stylesheets/_hero.css.scss */
       .hero .hero-inner .hero-copy h1 {
         font-size: 1.6em;
         margin-bottom: 0.5em; }
         @media screen and (min-width: 53.75em) {
-          /* line 50, /Users/lun/code/nomadwiki/source/assets/stylesheets/_hero.css.scss */
+          /* line 52, /Users/lun/code/nomadwiki/source/assets/stylesheets/_hero.css.scss */
           .hero .hero-inner .hero-copy h1 {
             font-size: 1.8em; } }
-      /* line 59, /Users/lun/code/nomadwiki/source/assets/stylesheets/_hero.css.scss */
+      /* line 61, /Users/lun/code/nomadwiki/source/assets/stylesheets/_hero.css.scss */
       .hero .hero-inner .hero-copy p {
         font-weight: 200;
         line-height: 1.4em;
         margin: 0 auto 0 auto; }
         @media screen and (min-width: 53.75em) {
-          /* line 59, /Users/lun/code/nomadwiki/source/assets/stylesheets/_hero.css.scss */
+          /* line 61, /Users/lun/code/nomadwiki/source/assets/stylesheets/_hero.css.scss */
           .hero .hero-inner .hero-copy p {
             font-size: 1.1em;
             max-width: 40%; } }
